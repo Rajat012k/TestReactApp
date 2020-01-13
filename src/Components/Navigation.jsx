@@ -24,7 +24,7 @@ class Navigation extends Component {
       <Router>
         <div>
           <Navbar bg="dark" variant="dark">
-            <Navbar.Brand>Home </Navbar.Brand>
+            <Navbar.Brand><Link to="/">Home</Link> </Navbar.Brand>
             <Nav className="mr-auto">
               <Nav.Link>
                 <Link to="/Hello">Hello</Link>
